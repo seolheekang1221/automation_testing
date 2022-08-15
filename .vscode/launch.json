@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: 현재 파일",
+            "name": "Python: currentFile",
             "type": "python",
             "request": "launch",
             "program": "${file}",
