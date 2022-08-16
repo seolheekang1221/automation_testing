@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 
 driver.get('https://www.tvo.org/series-docs')
 driver.maximize_window()
-print("First window title = " + driver.title)
+# print("First window title = " + driver.title)
 
 main_page = driver.window_handles[0]
 driver.find_element(By.XPATH, "//li[2]//button[1]").click()
